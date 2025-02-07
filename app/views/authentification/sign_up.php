@@ -38,11 +38,11 @@
             <p class="text-gray-200">Join us to get started</p>
         </div>
 
-        <form id="signUpForm" action="/register" method="POST" class="space-y-6">
+        <form id="signUpForm" action="/signup" method="POST" class="space-y-6">
             <div class="space-y-4">
                 <!-- Full Name Input -->
                 <div class="relative">
-                    <input type="text" name="fullname" placeholder="Full Name" 
+                    <input type="text" name="name" placeholder="Full Name" 
                         class="w-full px-4 py-3 bg-white bg-opacity-20 rounded-lg text-white placeholder-gray-300
                         border border-white border-opacity-30 focus:outline-none focus:border-white
                         transition duration-200" required>
@@ -64,13 +64,14 @@
                         transition duration-200" required>
                 </div>
 
-                <!-- Confirm Password Input -->
                 <div class="relative">
-                    <input type="password" name="confirm_password" placeholder="Confirm Password" 
+                    <input type="password" name="npassword" placeholder="Password" 
                         class="w-full px-4 py-3 bg-white bg-opacity-20 rounded-lg text-white placeholder-gray-300
                         border border-white border-opacity-30 focus:outline-none focus:border-white
                         transition duration-200" required>
                 </div>
+                
+
             </div>
 
             <button type="submit" 

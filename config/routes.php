@@ -11,4 +11,4 @@ $router->addRoute('GET','/signup',AuthController::class, 'showsignup');
 // $router->addRoute('GET','/alo',AuthController::class, 'alo');
 $router->addRoute('POST', '/login', AuthController::class, 'login');
 $router->addRoute('POST', '/signup', AuthController::class, 'signup');
-$router->addRoute('GET', '/logout', AuthController::class, 'logout');
+$router->addRoute('GET', '/authentification/logout', AuthController::class, 'logout');

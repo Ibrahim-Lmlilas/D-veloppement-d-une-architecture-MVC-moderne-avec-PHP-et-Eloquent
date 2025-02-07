@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <button type="submit" 
+            <button type="submit" name="submit"
                 class="w-full bg-white text-indigo-600 py-3 px-4 rounded-lg font-semibold
                 hover:bg-opacity-90 transform transition duration-200 hover:scale-[1.02]
                 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
@@ -70,7 +70,7 @@
         <div class="mt-6 text-center">
             <p class="text-sm text-gray-200">
                 Don't have an account? 
-                <a href="#" class="font-medium text-white hover:text-gray-100">Sign up</a>
+                <a href="/signup" class="font-medium text-white hover:text-gray-100">Sign up</a>
             </p>
         </div>
     </div>
